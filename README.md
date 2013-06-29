@@ -17,6 +17,7 @@ Libraries used:
 * mongoose
 * cJSON
 * Chromium time generator
+* normalize.css
 
 Assets used:
 ------------
