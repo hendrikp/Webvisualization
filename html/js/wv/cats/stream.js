@@ -7,7 +7,7 @@
  * specific for cats and mongoose cats_interface
  * @module stream
  */
-define(["exports", "jQuery", "coherent"], function(exports, $, engine) {
+define(["exports", "jQuery"], function(exports, $) {
 
     /**
     * create a new stream for a binding namespace
