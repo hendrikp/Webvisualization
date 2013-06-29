@@ -18,7 +18,6 @@ requirejs.config({
         'three_collada': 'lib/three/ColladaLoader',
         'three_fp_controls': 'lib/three/FirstPersonControls',
         'three_noise': 'lib/three/ImprovedNoise',
-        'coherent': 'lib/coherent/coherent', // currently not in use
         'stream': 'wv/cats/stream'
     },
     shim: {
@@ -42,9 +41,6 @@ requirejs.config({
         },
         'three_noise': {
             exports: 'ImprovedNoise'
-        },
-        'coherent': {
-            exports: 'engine'
         }
     }
 });
