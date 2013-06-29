@@ -1,0 +1,9 @@
+uniform vec4 offsetRepeat;
+uniform float time;
+uniform sampler2D tGrass;
+uniform sampler2D tGrass2;
+uniform sampler2D tGrass3;
+uniform sampler2D tRock;
+uniform sampler2D tRock2;
+uniform sampler2D tCloudShadow;
+varying vec3 vNormal;

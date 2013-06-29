@@ -1,0 +1,144 @@
+.ui-front {
+    z-index:1000000 !important; /* The default is 100. !important overrides the default. */
+}
+
+.ui-autocomplete {
+	max-height: 150px;
+	min-width: 120px;
+	max-width: 200px;
+	overflow-y: auto;
+	overflow-x: hidden; /* prevent horizontal scrollbar */
+}
+
+.wv-view {
+	background-color: #949EAA;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wv-toolbox-dialog {
+	padding: 3px 0px 0px 0px !important;
+}
+
+.wv-toolbox-list { margin: 0; padding: 0; width: 100%; }
+.wv-toolbox-item { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; height: 18px; }
+.wv-toolbox-item span { position: absolute; margin-left: -1.3em; }
+
+.wv-property-dialog {
+	padding: 3px 0px 0px 0px !important;
+}
+
+.wv-property-table {
+	width: 100% !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	border: 0px !important;
+}
+
+.wv-property-group {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.wv-property-label {
+	width: 30%;
+	text-align: right;
+}
+
+.wv-property-value {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+.wv-property-input {
+	width: 100%;
+}
+
+.wv-property-input-c {
+	margin-left: 10px !important;
+	width: 84%;
+}
+
+.wv-toolbar {
+	position: absolute;
+	padding: 4px;
+	z-index: 9999999999;
+	display: inline-block;
+}
+
+.wv-toolbar-group {
+	display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wv-toolbar-spacer {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.wv-toolbar-label {
+	display: inline-block;
+	vertical-align: middle; 
+	margin: 0px !important;
+	padding-right: 1em;
+}
+
+.wv-graph-bg {
+	background-color: rgb(255, 255, 255);
+}
+
+.wv-graph-axis-1 {
+	stroke: rgb(235, 120, 10); 
+	stroke-width: 1px;
+	fill: none;
+}
+
+.wv-graph-axis-2 {
+	stroke: rgb(100, 25, 70);
+	stroke-width: 1px;
+	fill: none;
+}
+
+.wv-value {
+	font-family: "Arial", "sans-serif";
+	/*
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial","sans-serif";
+	font-weight: lighter;
+	*/
+	font-size: 24px;
+	color:#ffffff;
+}
+
+div.wv-widget {
+	display: block;
+	position: absolute;
+}
+
+.ui-resizable-helper {
+	border: 2px dotted #00F;
+}
+
+/* Selection:Blue Light */
+.wv-widget.ui-selected { 
+	outline: #990000 solid 1px; 
+}
+
+.wv-widget.ui-draggable-dragging {
+	outline: #990000 solid 1px;
+}
+
+.wv-widget.ui-draggable:not(.ui-draggable-dragging):not(.ui-selected):hover {
+	outline: #990000 dotted 1px;
+}

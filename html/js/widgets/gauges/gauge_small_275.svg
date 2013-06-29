@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="110" width="110">
+ <defs>
+  <!-- Tick marks -->
+  <rect transform="rotate(-45,55,55)" height="1" width="6" y="55" x="15" id="tickMajor"/>
+  <rect transform="rotate(-45,55,55)" height="0.7" width="4" y="55" x="15" id="tickMinor"/>
+  <g id="tickMinorGroup">
+   <use id="svg_1" transform="rotate(13.5,55,55)" xlink:href="#tickMinor"/>
+   <use id="svg_2" transform="rotate(27,55,55)" xlink:href="#tickMinor"/>
+   <use id="svg_3" transform="rotate(40.5,55,55)" xlink:href="#tickMinor"/>
+  </g>
+  <g id="gaugeTicks">
+   <use xlink:href="#tickMajor"/>
+   <use xlink:href="#tickMinorGroup"/>
+   <use transform="rotate(54,55,55)" xlink:href="#tickMajor"/>
+   <use transform="rotate(54,55,55)" xlink:href="#tickMinorGroup"/>
+   <use transform="rotate(108,55,55)" xlink:href="#tickMajor"/>
+   <use transform="rotate(108,55,55)" xlink:href="#tickMinorGroup"/>
+   <use transform="rotate(162,55,55)" xlink:href="#tickMajor"/>
+   <use transform="rotate(162,55,55)" xlink:href="#tickMinorGroup"/>
+   <use transform="rotate(216,55,55)" xlink:href="#tickMajor"/>
+   <use transform="rotate(216,55,55)" xlink:href="#tickMinorGroup"/>
+   <use transform="rotate(270,55,55)" xlink:href="#tickMajor"/>
+  </g>
+  
+  <!-- Gradients for the gauge bevel -->
+  <linearGradient y2="0%" y1="100%" x2="100%" x1="0%" id="grShOuter">
+   <stop stop-color="#e9e9e9" offset="0"/>
+   <stop stop-color="#898989" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="0%" y1="100%" x2="100%" x1="0%" id="grShInner">
+   <stop offset="0" stop-color="#f9f9f9"/>
+   <stop offset="1" stop-color="#d9d9d9"/>
+  </linearGradient>
+  
+  <!-- Gradient for the gauge background -->
+  <radialGradient r="85%" cy="100%" cx="50%" id="grGaugeBack">
+   <stop stop-color="#666" offset="0"/>
+   <stop stop-color="#000" offset="1"/>
+  </radialGradient>
+  
+  <!-- Gradient for the needle itself -->
+  <linearGradient y2="0%" y1="0%" x2="100%" x1="0%" id="grNeedle">
+   <stop stop-color="#f9f9f9" offset="0"/>
+   <stop stop-color="#efefef" offset="0.4995"/>
+   <stop stop-color="#d9d9d9" offset="0.5005"/>
+   <stop stop-color="#cfcfcf" offset="1"/>
+  </linearGradient>
+  
+  <!-- Gradients for the needle cap -->
+  <linearGradient y2="100%" y1="0%" x2="0%" x1="0%" id="grCapOuter">
+   <stop stop-color="#292929" offset="0"/>
+   <stop stop-color="#898989" offset="1"/>
+  </linearGradient>
+  <linearGradient id="grCapInner">
+   <stop stop-color="#393939"/>
+   </linearGradient>
+ </defs>
+ <g>
+ 
+  <!-- The Gauge -->
+  <g id="gaugeBack">
+   <circle r="50" cy="55" cx="55" fill="url(#grShOuter)"/>
+   <circle r="47" cy="55" cx="55" fill="url(#grShInner)"/>
+   <circle r="43" cy="55" cx="55" fill="url(#grGaugeBack)"/>
+  </g>
+  
+  <!-- Tick marks -->
+  <use fill="#fff" xlink:href="#gaugeTicks"/>
+  
+  <!-- Major tick scale -->
+  <text id="major_t1" xml:space="preserve" text-anchor="start" font-family="Segoe UI" font-size="10" y="78" x="31" fill="#bfbfbf">0</text>
+  <text id="major_t6" xml:space="preserve" text-anchor="end" font-family="Segoe UI" font-size="10" y="78" x="79.5" fill="#bfbfbf">10000</text>
+  <text id="major_t2" xml:space="preserve" text-anchor="start" font-family="Segoe UI" font-size="10" y="53" x="22" fill="#bfbfbf">2000</text>
+  <text id="major_t5" xml:space="preserve" text-anchor="end" font-family="Segoe UI" font-size="10" y="53" x="88" fill="#bfbfbf">8000</text>
+  <text id="major_t3" xml:space="preserve" text-anchor="middle" font-family="Segoe UI" font-size="10" y="34" x="40.5" fill="#bfbfbf">4000</text>
+  <text id="major_t4" xml:space="preserve" text-anchor="middle" font-family="Segoe UI" font-size="10" y="34" x="67.5" fill="#bfbfbf">6000</text>
+ 
+ <text id="unit" fill="#ffffff" x="55" y="93" font-size="10" font-family="Segoe UI" text-anchor="middle" xml:space="preserve">Einheit</text>
+ 
+ <polygon id="gaugeNeedle" class="gaugeNeedles" transform="rotate(-135, 55, 55)" points="54,21.5 55,20 56,21 59,67 55,68.5, 51,67" fill="url(#grNeedle)"/>
+  <circle transform="rotate(-135, 55, 55)" id="svg_21" r="7" cy="55" cx="55" fill="url(#grCapOuter)"/>
+  <circle transform="rotate(-135, 55, 55)" id="svg_22" r="5" cy="55" cx="55" fill="url(#grCapInner)"/>
+ </g>
+</svg>

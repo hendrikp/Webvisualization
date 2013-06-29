@@ -1,0 +1,181 @@
+<svg width="500" height="85" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient spreadMethod="pad" y2="0" x2="1" y1="1" x1="1" id="button_fill">
+   <stop offset="0" stop-color="#c6ccce"/>
+   <stop offset="0.05" stop-color="#9ba6aa"/>
+   <stop offset="0.78" stop-color="#efefef"/>
+   <stop offset="0.95" stop-color="#efefef"/>
+   <stop offset="1" stop-color="#d6d6d6"/>
+  </linearGradient>
+  <linearGradient id="svg_2" x1="1" y1="1" x2="1" y2="0" spreadMethod="pad">
+   <stop stop-color="#c6ccce" stop-opacity="0.98047" offset="0"/>
+   <stop offset="0.05078" stop-color="#9ba6aa" stop-opacity="0.98438"/>
+   <stop stop-color="#efefef" stop-opacity="0.99609" offset="0.78516"/>
+   <stop stop-color="#efefef" stop-opacity="0.99609" offset="0.78906"/>
+   <stop offset="0.96094" stop-color="#efefef" stop-opacity="0.99609"/>
+   <stop stop-color="#d6d6d6" stop-opacity="0.98828" offset="1"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" y2="0" x2="1" y1="1" x1="1" id="svg_1">
+   <stop offset="0" stop-opacity="0.98047" stop-color="#c6ccce"/>
+   <stop stop-opacity="0.98438" stop-color="#9ba6aa" offset="0.05078"/>
+   <stop offset="0.78516" stop-opacity="0.99609" stop-color="#efefef"/>
+   <stop offset="0.78906" stop-opacity="0.99609" stop-color="#efefef"/>
+   <stop stop-opacity="0.99609" stop-color="#efefef" offset="0.96094"/>
+   <stop offset="1" stop-opacity="0.98828" stop-color="#d6d6d6"/>
+  </linearGradient>
+  <linearGradient id="svg_3" x1="1" y1="1" x2="1" y2="0" spreadMethod="pad">
+   <stop stop-color="#c6ccce" stop-opacity="0.98047" offset="0"/>
+   <stop offset="0.05078" stop-color="#9ba6aa" stop-opacity="0.98438"/>
+   <stop stop-color="#efefef" stop-opacity="0.99609" offset="0.78516"/>
+   <stop stop-color="#efefef" stop-opacity="0.99609" offset="0.78906"/>
+   <stop offset="0.96094" stop-color="#efefef" stop-opacity="0.99609"/>
+   <stop stop-color="#d6d6d6" stop-opacity="0.98828" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_13" x2="0.5" y2="0.5">
+   <stop stop-color="#4f4f4f" stop-opacity="0.99219" offset="0"/>
+   <stop stop-color="#e5e5e5" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_15" x2="1" y2="1" x1="1" y1="0">
+   <stop stop-color="#4f4f4f" stop-opacity="0.99219" offset="0"/>
+   <stop stop-color="#727272" stop-opacity="0.99219" offset="0.92188"/>
+   <stop stop-color="#e5e5e5" stop-opacity="0.99609" offset="0.97266"/>
+   <stop stop-color="0" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_16" x2="1" y2="1">
+   <stop stop-color="#4f4f4f" offset="0.46875"/>
+   <stop stop-color="#b0b0b0" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_26" x2="1" y2="0" x1="0" y1="0">
+   <stop stop-color="#d1ffa3" stop-opacity="0.99219" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_27" x2="1" y2="0" x1="0.90234" y1="0">
+   <stop stop-color="#d1ffa3" stop-opacity="0.99219" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_28" x2="1" y2="0" x1="0.90234" y1="0">
+   <stop stop-color="#a2e079" stop-opacity="0.98828" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_29" x2="1" y2="0" x1="0.98047" y1="0">
+   <stop stop-color="#a2e079" stop-opacity="0.98828" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_30" x2="1" y2="0" x1="0.98" y1="0">
+   <stop stop-color="#a2e079" stop-opacity="0.98828" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_31" x1="0.97266" y1="0">
+   <stop stop-color="#a2e079" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_32" x1="0.97266" y1="0" x2="1" y2="0">
+   <stop stop-color="#ffb600" stop-opacity="0.99609" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_33" x1="0.97266" y1="0" x2="1" y2="0">
+   <stop stop-color="#ffb600" stop-opacity="0.99609" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_34" x1="0.97266" y1="0" x2="1" y2="0">
+   <stop stop-color="#ffc700" stop-opacity="0.99219" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_35" x1="0.98" y1="0" x2="1" y2="0">
+   <stop stop-color="#ffc700" stop-opacity="0.99219" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <radialGradient id="svg_36" spreadMethod="pad">
+   <stop stop-color="#494949" offset="0"/>
+   <stop stop-color="#b6b6b6" offset="1"/>
+  </radialGradient>
+  <linearGradient id="svg_37" x1="0.98" y1="0" x2="1" y2="0" spreadMethod="pad">
+   <stop stop-color="#ffc700" stop-opacity="0.99219" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99219" offset="0.45313"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_38" x1="0.29297" y1="0" x2="1" y2="0" spreadMethod="pad">
+   <stop stop-color="#ffc700" stop-opacity="0.99219" offset="0"/>
+   <stop stop-color="#e89c4c" stop-opacity="0.98438" offset="0.77734"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="0.98047"/>
+  </linearGradient>
+  <linearGradient id="svg_39" x1="0.29297" y1="0" x2="1" y2="0" spreadMethod="pad">
+   <stop stop-color="#ffc700" stop-opacity="0.99219" offset="0"/>
+   <stop stop-color="#ff9d00" stop-opacity="0.97266" offset="0.47656"/>
+   <stop stop-color="#ffc259" stop-opacity="0.97656" offset="0.96875"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_40" x1="0.45703" y1="1" x2="0.47266" y2="0" spreadMethod="pad">
+   <stop stop-color="#ffc700" stop-opacity="0.99219" offset="0"/>
+   <stop stop-color="#ff9d00" stop-opacity="0.97266" offset="0.47656"/>
+   <stop stop-color="#ffc259" stop-opacity="0.97656" offset="0.96875"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_41" x1="0.45703" y1="1" x2="0.47266" y2="0" spreadMethod="pad">
+   <stop stop-color="#ff7200" stop-opacity="0.96875" offset="0"/>
+   <stop stop-color="#ff9d00" stop-opacity="0.97266" offset="0.04297"/>
+   <stop stop-color="#ffc700" stop-opacity="0.99219" offset="0.61719"/>
+   <stop stop-color="#ffc259" stop-opacity="0.97656" offset="0.95703"/>
+   <stop stop-color="#ffffff" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_42" x2="0.46875" y2="0" x1="0.5" y1="1">
+   <stop stop-color="#262626" stop-opacity="0.99609" offset="0"/>
+   <stop stop-color="#686868" offset="0.05469"/>
+   <stop stop-color="#979797" offset="0.62891"/>
+   <stop stop-color="#979797" offset="0.98828"/>
+   <stop stop-color="#e0e0e0" stop-opacity="0.99219" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_43" x2="0.46875" y2="0" x1="0.5" y1="1">
+   <stop stop-color="#262626" stop-opacity="0.99609" offset="0"/>
+   <stop stop-color="#686868" offset="0.05469"/>
+   <stop stop-color="#7a7a7a" stop-opacity="0.99219" offset="0.62891"/>
+   <stop stop-color="#979797" offset="0.98828"/>
+   <stop stop-color="#e0e0e0" stop-opacity="0.99219" offset="1"/>
+  </linearGradient>
+  <radialGradient id="svg_44" spreadMethod="pad">
+   <stop stop-color="#c1c1c1" offset="0"/>
+   <stop stop-color="#3e3e3e" offset="1"/>
+  </radialGradient>
+  <radialGradient id="svg_45" spreadMethod="pad" cx="0.5" cy="0.5" r="1.12509">
+   <stop stop-color="#c1c1c1" offset="0.40625"/>
+   <stop stop-color="#3e3e3e" offset="1"/>
+  </radialGradient>
+  <linearGradient id="svg_46" spreadMethod="pad">
+   <stop stop-color="#c1c1c1" offset="0.40625"/>
+   <stop stop-color="#3e3e3e" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_47" spreadMethod="pad" x1="0" y1="1" x2="1" y2="0">
+   <stop stop-color="#a0a0a0" stop-opacity="0.99609" offset="0"/>
+   <stop stop-color="#c1c1c1" offset="0.10156"/>
+   <stop stop-color="#c1c1c1" offset="0.83594"/>
+   <stop stop-color="#e5e5e5" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_48" spreadMethod="pad" x1="0" y1="1" x2="1" y2="0">
+   <stop stop-color="#a0a0a0" stop-opacity="0.99609" offset="0"/>
+   <stop stop-color="#c1c1c1" offset="0.25781"/>
+   <stop stop-color="#c1c1c1" offset="0.88672"/>
+   <stop stop-color="#e5e5e5" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000000" fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" width="500" height="85" id="svg_14" stroke-opacity="0" rx="3" ry="3" opacity="0.8"/>
+  <rect stroke="url(#svg_16)" fill="#1c1c1c" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="219.58184" y="2.40909" width="70.98182" height="20.92727" rx="3" ry="3" id="svg_61" opacity="0.8"/>
+  <rect stroke="url(#svg_16)" fill="#1c1c1c" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="292.59999" y="2.31818" width="203.74544" height="20.92727" rx="3" ry="3" id="svg_60" opacity="0.8"/>
+  <rect stroke="url(#svg_16)" fill="#1c1c1c" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="3.1" y="26.14545" width="492.79999" height="55.54545" id="svg_5" rx="3" ry="3" opacity="0.8"/>
+  <text fill="#ededed" stroke="#4f4f4f" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="83.21818" y="45.15455" id="svg_4" font-size="16" font-family="Segoe UI" text-anchor="middle" xml:space="preserve" font-weight="normal">Warmlauf</text>
+  <path stroke="#000000" fill="#efefef" stroke-width="0.5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m303.53705,9.05724c-0.20419,0 -0.37003,0.15422 -0.37003,0.34442l0,3.17486l-2.23386,0.91027c-0.18732,0.07646 -0.27197,0.27979 -0.18936,0.45388c0.06076,0.12902 0.19489,0.20622 0.33826,0.20622c0.04938,0 0.09912,-0.00942 0.14752,-0.02938l2.44843,-0.99776c0.00211,-0.00072 0.00342,-0.00129 0.00455,-0.0021l0.00208,-0.00072c0.00583,-0.00185 0.00793,-0.00683 0.01346,-0.00845c0.03833,-0.01787 0.07462,-0.03888 0.1026,-0.06721c0.01245,-0.01158 0.02039,-0.0268 0.02936,-0.04024c0.01834,-0.02205 0.03735,-0.04386 0.04877,-0.07035c0.00903,-0.02053 0.00903,-0.04283 0.01346,-0.06488c0.00555,-0.02213 0.01456,-0.04177 0.01456,-0.06414l0,-3.40056c0,-0.18964 -0.16595,-0.34385 -0.36978,-0.34385l0,-0.00001zm5.77383,0.58766c0,-1.31923 -1.14682,-2.38894 -2.56348,-2.38894c-0.71594,0 -1.36206,0.27423 -1.82544,0.71532c-0.44223,-0.10979 -0.90561,-0.17395 -1.38489,-0.17395c-0.49274,0 -0.96747,0.06704 -1.42218,0.18288c-0.46439,-0.44608 -1.11395,-0.72425 -1.83334,-0.72425c-1.41669,0 -2.56458,1.06972 -2.56458,2.38894c0,0.63515 0.26852,1.21098 0.70248,1.63894c-0.16339,0.47859 -0.25256,0.98826 -0.25256,1.51781c0,2.76377 2.40417,5.00429 5.37021,5.00429c2.96567,0 5.37125,-2.24052 5.37125,-5.00429c0,-0.54243 -0.09604,-1.06288 -0.26743,-1.55227c0.41501,-0.4237 0.67001,-0.9856 0.67001,-1.60449l-0.00003,0l-0.00003,0zm-5.77383,7.12765c-2.35031,0 -4.26178,-1.78132 -4.26178,-3.97088c0,-2.18983 1.91168,-3.97139 4.26178,-3.97139c2.35001,0 4.26144,1.78109 4.26144,3.97139c0,2.19004 -1.91144,3.97088 -4.26144,3.97088z" id="svg_8" stroke-opacity="0"/>
+  <text fill="#ededed" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="0" x="116.27454" y="15.95" id="svg_17" font-size="18" font-family="Segoe UI Light" text-anchor="middle" xml:space="preserve" transform="matrix(0.94926 0 0 1 143.887 2.83636)" stroke="#000000">00:01:45</text>
+  <text fill="#ededed" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="0" x="354.18636" y="18.31818" id="svg_18" font-size="18" font-family="Segoe UI Light" text-anchor="middle" xml:space="preserve" stroke="#000000">01.03.2013</text>
+  <text fill="#ededed" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="0" x="447.39545" y="18.5" id="svg_19" font-size="18" font-family="Segoe UI Light" text-anchor="middle" xml:space="preserve">14:30:27.543</text>
+  <text fill="#ededed" stroke="url(#svg_13)" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="52.2" y="18.75" id="svg_20" font-size="18" font-family="Segoe UI" text-anchor="middle" xml:space="preserve">NRTC2013A</text>
+  <text fill="#ededed" stroke="#4f4f4f" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="96.25" y="69.73636" id="svg_21" font-size="16" font-family="Segoe UI" text-anchor="middle" xml:space="preserve">Einstellphase</text>
+  <rect stroke="url(#svg_47)" fill="url(#svg_43)" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="220.94998" y="32.09546" width="270.00002" height="17.15" id="svg_24" rx="2" ry="2"/>
+  <rect stroke="#000000" fill="url(#svg_41)" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="221.66817" y="33.24545" width="238.93183" height="14.88182" id="svg_25" stroke-opacity="0" rx="2" ry="2" stroke-width="0"/>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="0" x="363.96364" y="46.72727" id="svg_51" font-size="16" font-family="Segoe UI Light" text-anchor="middle" xml:space="preserve">00:01:23</text>
+  <rect stroke="url(#svg_47)" fill="url(#svg_43)" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="221.36363" y="56.57046" width="268.80001" height="17.55" rx="2" ry="2" id="svg_56"/>
+  <rect stroke="#000000" fill="url(#svg_41)" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="222.07956" y="57.32273" width="150.24089" height="16.08182" stroke-opacity="0" rx="2" ry="2" stroke-width="0" id="svg_57"/>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="0" x="363.74545" y="70.63637" font-size="16" font-family="Segoe UI Light" text-anchor="middle" xml:space="preserve" id="svg_58">00:01:23</text>
+  <text fill="#ededed" stroke="#4f4f4f" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="24.25455" y="45.2" id="svg_59" font-size="16" font-family="Segoe UI Light" text-anchor="middle" xml:space="preserve">0010</text>
+ </g>
+</svg>

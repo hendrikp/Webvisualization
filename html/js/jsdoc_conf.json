@@ -1,0 +1,21 @@
+{
+    "tags": {
+        "allowUnknownTags": true
+    },
+    "source": {
+        "include": [ "wv", "widgets", "app.js", "main.js" ],
+        "exclude": [ "lib" ],
+        "includePattern": ".+\\.js(doc)?$",
+        "excludePattern": ""
+    },
+    "plugins": [],
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "opts": {
+        "encoding": "utf8",
+        "destination": "./documentation/",
+        "recurse": true,
+    }
+}

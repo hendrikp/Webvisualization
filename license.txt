@@ -1,0 +1,8 @@
+Webvisualization
+============
+Copyright (c) 2013, Hendrik Polczynski
+All rights reserved.
+
+Libraries
+======
+For libraries see their subdirectories / files

@@ -1,0 +1,42 @@
+{
+	"textlabel": {
+		"type": "textlabel",
+		"name": "Label",
+		"path": "widgets/basic/textlabel"
+	},
+	"linkbutton": {
+		"type": "linkbutton",
+		"name": "Link",
+		"path": "widgets/basic/linkbutton"
+	},
+	"image": {
+		"type": "image",
+		"name": "Image",
+		"path": "widgets/basic/image"
+	},
+	"gauge_small_275": {
+		"type": "gauge_small_275",
+		"name": "Small Gauge",
+		"path": "widgets/gauges/gauge_small_275"
+	},
+	"valueslider": {
+		"type": "valueslider",
+		"name": "Slider",
+		"path": "widgets/slider/valueslider"
+	},
+	"checkbutton": {
+		"type": "checkbutton",
+		"name": "Toggle Button",
+		"path": "widgets/digital/checkbutton"
+	},
+	"graph": {
+		"type": "graph",
+		"name": "2D Graph",
+		"path": "widgets/graph/graph"
+	},
+	"driver": {
+		"type": "driver",
+		"name": "3D Driver",
+		"path": "widgets/driver/driver"
+	}
+}

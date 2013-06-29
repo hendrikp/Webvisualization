@@ -1,0 +1,45 @@
+<svg width="355" height="295" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <radialGradient fy="0.68359" fx="0.50781" r="0.94908" cy="0.5" cx="0.5" spreadMethod="pad" id="background">
+   <stop offset="0.05859" stop-opacity="0.98438" stop-color="#3a3a3a"/>
+   <stop offset="0.35156" stop-opacity="0.98828" stop-color="#111111"/>
+   <stop offset="0.49219" stop-opacity="0.98438" stop-color="#141414"/>
+   <stop offset="0.63281" stop-opacity="0.98828" stop-color="#3a3a3a"/>
+   <stop offset="0.74219" stop-opacity="0.99609" stop-color="#1c1c1c"/>
+   <stop offset="1" stop-opacity="0.98828" stop-color="#111111"/>
+   <stop offset="1" stop-opacity="0.98828" stop-color="#111111"/>
+  </radialGradient>
+  <linearGradient spreadMethod="pad" y2="1" x2="0.5" y1="0" x1="0.50391" id="border_middle">
+   <stop offset="0" stop-color="#000000"/>
+   <stop offset="0.21875" stop-opacity="0.99609" stop-color="#000000"/>
+   <stop offset="0.35938" stop-color="#ffffff"/>
+   <stop offset="0.38672" stop-opacity="0.99219" stop-color="#ffffff"/>
+   <stop offset="0.50391" stop-opacity="0.98828" stop-color="#000000"/>
+   <stop offset="0.51563" stop-opacity="0.98828" stop-color="#000000"/>
+   <stop offset="0.55859" stop-opacity="0.99219" stop-color="#ffffff"/>
+   <stop offset="0.66797" stop-opacity="0.98438" stop-color="#545454"/>
+   <stop offset="1" stop-opacity="0.98828" stop-color="#c1c1c1"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#000000"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" y2="1" x2="0.5" y1="0" x1="0.5" id="border_outer">
+   <stop offset="0" stop-color="#000000"/>
+   <stop offset="0.125" stop-opacity="0.99609" stop-color="#000000"/>
+   <stop offset="0.29688" stop-color="#ffffff"/>
+   <stop offset="0.73438" stop-opacity="0.98828" stop-color="#757575"/>
+   <stop offset="1" stop-opacity="0.98438" stop-color="#545454"/>
+   <stop offset="1" stop-opacity="0.99219" stop-color="#ffffff"/>
+   <stop offset="1" stop-opacity="0.98828" stop-color="#000000"/>
+   <stop offset="1" stop-opacity="0.98828" stop-color="#000000"/>
+   <stop offset="1" stop-opacity="0.98828" stop-color="#c1c1c1"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#000000"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <path stroke="url(#border_outer)" stroke-width="6" id="svg_22" d="m5.50001,175.39099c0,-93.32001 76.74862,-168.90919 171.49997,-168.90919c94.75139,0 171.50002,75.58918 171.50002,168.90919c0,93.31998 -47.82092,111.05649 -170.46683,112.08957c-122.64598,1.03311 -172.53314,-18.76959 -172.53314,-112.08957l-0.00001,0l-0.00001,0z"/>
+  <path stroke="url(#border_middle)" stroke-width="4" id="svg_7" d="m8.00001,176.30304c0,-91.32813 75.18252,-165.30306 167.99998,-165.30306c92.81752,0 168.00002,73.97494 168.00002,165.30306c0,91.32813 -46.84485,108.68533 -166.98795,109.69669c-120.14317,1.01135 -169.01195,-18.36856 -169.01195,-109.69669l0.00002,0l-0.00002,0l-0.00001,0l-0.00002,0l-0.00002,0l-0.00001,0l-0.00002,0l-0.00001,0z"/>
+  <path stroke="#000000" id="svg_27" d="m14.00001,175.77454c0,-88.00757 72.49743,-159.29285 161.99998,-159.29285c89.50261,0 162.00002,71.28526 162.00002,159.29285c0,88.00754 -45.17181,104.73367 -161.02402,105.70825c-115.85236,0.97461 -162.97596,-17.70071 -162.97596,-105.70825l-0.00001,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="8" fill="url(#background)"/>
+  <path id="svg_29" d="m174.84106,203.5c-121.6214,0 -122.34105,-0.5 -122.34105,-0.5c0,0 124.5,-7 124.5,-7c0,0 -2.15895,7.5 -2.15895,7.5z" fill="#ff7f00"/>
+  <path fill="#ff7f00" fill-opacity="0" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m67,236.5c-2.575,-5.85101 -16,-19.35101 -16,-52.5c0,-66.298 53.702,-120 120,-120c66.298,0 120,53.702 120,120c0,33.14899 -8.42551,45.64899 -15.63824,50.86176" id="svg_1" stroke="#00a1ff"/>
+ </g>
+</svg>
