@@ -6,7 +6,7 @@
  * Application/Toolbar implementaion
  * @module app
  */
-define(["exports", "jQuery", "jQueryUi", "coherent", "wv/view", "wv/toolbar"], function(exports, $, jui, engine, mView, mToolbar) {
+define(["exports", "jQuery", "jQueryUi", "wv/view", "wv/toolbar"], function(exports, $, jui, mView, mToolbar) {
 
 	/**
 	* Create a new application object
