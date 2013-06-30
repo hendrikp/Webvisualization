@@ -4,8 +4,8 @@ Student project by Hendrik Polczynski at Beuth University of Applied Sciences Be
 
 [See a Demo Video here](https://www.youtube.com/watch?v=qjgCUGzatoU)
 
-* SVG / HTML5 Webvisualization of process data (exercise project) [Documentation here](https://dl.dropboxusercontent.com/u/5726676/webvisualization/index.html)
-* WebGL visualization of a track profile and car simulation (computer graphics 2) [Documentation here](https://dl.dropboxusercontent.com/u/5726676/webvisualization/module-driver.html)
+* SVG / HTML5 Webvisualization of process data (exercise project) | [Documentation](https://dl.dropboxusercontent.com/u/5726676/webvisualization/index.html)
+* WebGL visualization of a track profile and car simulation (computer graphics 2) | [Documentation](https://dl.dropboxusercontent.com/u/5726676/webvisualization/module-driver.html)
 
 Libraries used:
 ---------------
