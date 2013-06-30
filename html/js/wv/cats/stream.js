@@ -12,7 +12,6 @@ define(["exports", "jQuery"], function(exports, $) {
     /**
     * create a new stream for a binding namespace
     * @param binding binding namespace
-    * @class
     */
     exports.createStream = function(binding) {
         var self = {};
@@ -57,7 +56,6 @@ define(["exports", "jQuery"], function(exports, $) {
 
         /**
         * process received data if successfully received
-        * @member
         */
         self._processStreamData = function(json) {
             if (json === null) return;
@@ -66,7 +64,6 @@ define(["exports", "jQuery"], function(exports, $) {
 
         /**
         * handle the latency calculations by using the frame timestamps
-        * @member
         */
         self._calculateLatency = function(data) {
             // calculate round trip client
@@ -92,7 +89,6 @@ define(["exports", "jQuery"], function(exports, $) {
 
         /**
         * start the stream
-        * @member
         */
         self.startStreaming = function() {
             // Data Simulation [deprecated]
@@ -123,7 +119,6 @@ define(["exports", "jQuery"], function(exports, $) {
         /**
         * Handles the successful creation of a stream
         * will refresh binding and name/id resolvers
-        * @member
         */
         self._createHandler = function(json) {
             if (json !== null) {
@@ -148,7 +143,6 @@ define(["exports", "jQuery"], function(exports, $) {
 
         /**
         * Handles errors during stream creation
-        * @member
         */
         self._createErrorHandler = function(jqXHR, textStatus, errorThrown) {
             self.streamID = 0; // new stream required
